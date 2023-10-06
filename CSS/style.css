@@ -154,6 +154,25 @@ section.service .text {
 section.service .text a {
     font-family: 'Space Mono', monospace;
 }
+/* service section animations*/
+
+section.service.service-html figure img{
+    animation-name: float;
+    animation-duration: 1s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+
+
+
 
 /*section service overrides*/
 
